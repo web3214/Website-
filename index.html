@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samko | Designer & Forex Trader</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0077b6;
+    }
+
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0077b6;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .intro {
+      flex: 1 1 350px;
+    }
+
+    .intro h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1b1f3a;
+    }
+
+    .intro p {
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .intro h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #0077b6;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .card img {
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+    }
+
+    .card span {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .forex {
+      flex: 1 1 350px;
+      background: linear-gradient(135deg, #0077b6, #0096c7);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+      color: #fff;
+    }
+
+    .forex h4 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .forex img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      object-fit: cover;
+      max-height: 450px;
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 1rem;
+      }
+
+      main {
+        flex-direction: column;
+      }
+
+      .forex {
+        order: -1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>samko concePt</h1>
+      <nav>
+        <a href="/About.html">About</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/services.html">Services</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>Graphic Designer &<br>Forex Trader</h2>
+        <p>Designing bold ideas and analyzing financial markets with precision and strategy.</p>
+
+        <h3>Creative Works</h3>
+        <div class="portfolio">
+          <div class="card">
+            <img src="youtube.png" alt="Online Learn" />
+           <div>
+            <span>Online Learn</span>
+           </div>
+           
+          </div>
+          <div class="card">
+            <img src="forex.png" alt="Illustration" />
+           
+            <div>
+                <span>Illustration</span>
+               </div>
+          </div>
+          <div class="card">
+            <img src="Screenshot_20250507_004953_Gallery.jpg" alt="Website Design" />
+           
+            <div>
+                <span>Website Design</span>
+               </div>
+          </div>
+          <div class="card">
+            <img src="forex (1).png" alt="Currency" />
+           
+            <div>
+                <span>Currency</span>
+               </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="forex">
+        <h4>Live Market Overview</h4>
+        <img src="ChatGPT Image May 1, 2025, 09_07_52 PM.png" alt="Forex Chart" />
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 samko concePt. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
+

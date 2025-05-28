@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Samko concePt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>About Me</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="about-section">
+        <div class="profile">
+          <img src="forex (1).png" alt="Profile Picture" class="profile-img" />
+          <div class="bio">
+            <h2>Graphic Designer &<br>Forex Trader</h2>
+            <p>Designing bold ideas and analyzing financial markets with precision and strategy.</p>
+            <p>
+              I specialize in creating visually stunning designs and making informed decisions in the world of Forex trading. My approach blends creativity with analytical precision, whether I'm designing branding for businesses or trading financial markets.
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>Graphic Design</li>
+            <li>Logo & Branding</li>
+            <li>Web Design</li>
+            <li>Forex Analysis</li>
+            <li>Technical & Fundamental Trading</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <h3>Get in Touch</h3>
+          <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+          <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      &copy; 2025 Samko concePt. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
+<style>/* Universal reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .profile img{
+     width: 113px;
+     height: 113px;
+    }
+    /* Body and container styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #4A90E2;
+      color: white;
+      text-align: center;
+      padding: 40px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+    
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+    
+    nav {
+      margin-top: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    
+    nav a:hover {
+      text-decoration: underline;
+      color: #e2e2e2;
+    }
+    
+    /* Main content */
+    main {
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Services list styling */
+    section {
+      margin-top: 30px;
+    }
+    
+    ul {
+      list-style-type: none;
+    }
+    
+    ul li {
+      font-size: 1.2rem;
+      padding: 15px 0;
+      border-bottom: 1px solid #eee;
+      transition: background-color 0.3s ease;
+    }
+    
+    ul li:hover {
+      background-color: #f1f1f1;
+    }
+    
+    ul li strong {
+      font-size: 1.4rem;
+      color: #4A90E2;
+      font-weight: bold;
+    }
+    
+    /* Footer styles */
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #4A90E2;
+      color: white;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+    
+      nav a {
+        font-size: 1rem;
+        margin: 0 10px;
+      }
+    
+      ul li {
+        font-size: 1rem;
+      }
+    }
+    </style>
